@@ -14,9 +14,10 @@ h1,h2,h3,h4,h5,h6,p,input,label {
 }
 
 header {
-	background-color: #ecf0f1;
+	background-color: #fff;
 	height: 400px;
 	text-align: center;
+	padding: 1rem;
 }
 
 header h1 {
@@ -30,11 +31,12 @@ header h2 {
 .container {
 	max-width: 1024px;
 	margin: auto;
-}
+	text-align: center;
 
 .about {
 	background-color: #bdc3c7;
 	height: 500px;
+	padding: 1rem;
 }
 
 .projects {
