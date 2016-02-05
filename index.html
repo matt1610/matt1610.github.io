@@ -4,22 +4,39 @@
 	<meta charset="UTF-8">
 	<title>Yo!</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+	<script src="js/app.js"></script>
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body ng-controller="MainCtrl">
-	<input type="text" ng-model="Name">
-	<h1>{{Name}}</h1>
+	<header>
+		<h1>Matthew Starkey</h1>
+		<h2>Software Developer</h2>
+	</header>
+	<div class="container">
+		<div class="about">
+			<h2>About</h2>
+			<p></p>
+		</div>
+		<div class="projects">
+			<div class="project col-4" ng-repeat="project in Projects">
+				<h3>{{project.Name}}</h3>
+				<p>{{project.Description}}</p>
+				<a href="{{project.Url}}">{{project.Url}}</a>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="row">
+			<div class="col-6">
+				<form>
+					
+				</form>
+			</div>
+			<div class="col-6">
+				
+			</div>
+		</div>
+	</footer>
 	
-	<script>
-	var App = /**
-	*  Module
-	*
-	* Description
-	*/
-	angular.module('App', [])
-
-	.controller('MainCtrl', ['$scope', function($scope){
-		
-	}])
-	</script>
 </body>
 </html>
