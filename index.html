@@ -5,8 +5,9 @@
 	<title>Yo!</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
 </head>
-<body>
-	<input type="text">
+<body ng-controller="MainCtrl">
+	<input type="text" ng-model="Name">
+	<h1>{{Name}}</h1>
 	
 	<script>
 	var App = angular./**
@@ -15,6 +16,10 @@
 	* Description
 	*/
 	angular.module('App', []).
+
+	.controller('MainCtrl', ['$scope', function($scope){
+		
+	}])
 	</script>
 </body>
 </html>
