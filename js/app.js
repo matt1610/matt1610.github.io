@@ -15,7 +15,7 @@ var App = /**
 			$scope.FirstCap = $scope.InputWord[0] === $scope.InputWord[0].toUpperCase();
 		}
 
-		document.addEventlistener('keydown', function (evt) {
+		document.addEventListener('keydown', function (evt) {
 			$scope.ShiftKey = evt.shiftKey;
 		});
 
