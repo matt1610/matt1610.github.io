@@ -11,7 +11,8 @@
 <body ng-controller="MainCtrl">
 	
 	<div class="container">
-		<input type="text" autocapitalize="off" placeholder="Input text">
+		<input type="text" autocapitalize="off" placeholder="Input text" ng-model="InputWord" ng-change="CheckWord()">
+		<p class="warning" ng-show="FirstCap">ware that the first letter of your password is a capital letter.</p>
 	</div>
 	
 </body>
