@@ -8,7 +8,7 @@ var App = /**
 	.controller('MainCtrl', ['$scope', function($scope){
 
 		$scope.FirstCap = false;
-		$scope.FirstCap = '';
+		$scope.InputWord = '';
 		$scope.ShiftKey = false;
 		
 		$scope.CheckWord = function (argument) {
