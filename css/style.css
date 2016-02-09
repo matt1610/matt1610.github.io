@@ -32,6 +32,7 @@ header h2 {
 	max-width: 1024px;
 	margin: auto;
 	text-align: center;
+}
 
 .warning {
 	background-color: #e67e22;
