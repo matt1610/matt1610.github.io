@@ -1,0 +1,12 @@
+.viewPort {
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    margin: auto;
+    background: red;
+}
+
+.theImage {
+    position: relative;
+    left: -600px;
+}
