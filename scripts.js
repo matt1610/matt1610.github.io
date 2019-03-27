@@ -1,4 +1,6 @@
 $(function() {
+
+    console.log("Yo!");
     
     var img = $('._theImage');
     var viewPort = $('._jsViewPort');
